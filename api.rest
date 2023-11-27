@@ -1,0 +1,19 @@
+GET http://localhost:3000/siswa
+###
+GET http://localhost:3000/siswa/{id}
+###
+POST http://127.0.0.1:3000/siswa
+ 'Content-type: application/json'
+
+
+{
+    "nama":"zaneth",
+    "kelamin":"ea",
+    "hp":"123",
+    "alamat":"bajir",
+    "email":"eae@gmail.com"
+}
+###
+PUT http://localhost:3000/siswa/{id}
+###
+DELETE http://localhost:3000/siswa/{id}
